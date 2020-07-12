@@ -1,25 +1,30 @@
 # VisML: Image Colorization
 This project introduces a visualization tool for visualizing the internal of Covolutional Neural Network model. The model for visualization was trained on the intel-image-classification & 100-bird-species datasets for 400 epochs on Google's colab.
 <p float="left">
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/predict.jpg" width="100" /> 
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act1/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act1/predict.jpg" width="100" /> 
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act2/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act2/predict.jpg" width="100" /> 
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/predict.jpg" width="120" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act1/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act1/predict.jpg" width="120" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act2/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act2/predict.jpg" width="120" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/predict.jpg" width="120" /> 
 </p>
 <p float="left">
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act5/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act5/predict.jpg" width="100" /> 
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act7/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act7/predict.jpg" width="100" /> 
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act8/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act8/predict.jpg" width="100" /> 
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act9/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act9/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act5/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act5/predict.jpg" width="120" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act7/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act7/predict.jpg" width="120" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act8/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act8/predict.jpg" width="120" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act9/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act9/predict.jpg" width="120" /> 
 </p>
+<p float="left">
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/target.jpg" width="120" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/predict.jpg" width="120" /> 
+</p>
+
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.11%20PM.png" width="240">
 </p>
