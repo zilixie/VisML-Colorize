@@ -26,6 +26,7 @@ This project introduces a visualization tool for visualizing the internal of Cov
 </p>
 <p align="center">target & prediction on test set</p>
 
+## Structure
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.11%20PM.png" width="240">
 </p>
@@ -38,14 +39,28 @@ The model is trained using a special loss function called color-rebalancing. It 
 
 Q stands for the number of color classes in the datasets, and λ is a tuning parameter that ranges between [0,1]. The more it is close to 1 the less of original probability p ̃ is taken into consideration. 
 
+## Color Maps
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.48%20PM.png" width="960"></p>
 <p align="center">distribution of colors over all the possible ab-bins </p>
 
+## Accuracies over epochs
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.43.24%20PM.png" width="640"></p>
 <p align="center">accuracies over epochs and categories </p>
 
+## Main Page
+The top part of this dashboard is a scrollable div where users can select the image that they want to see the activation. The input/output view will give user a quick comparison on the target image and predicted image by our model, along with the range of color, and L channel histogram.
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.44.04%20PM.png" width="640"></p>
-<p align="center">Visualization of Model Activation </p>
+<p align="center">Visualization of Model Activation </p>  
+
+In vertical axis, user can quickly switch between visualizations of different convolutional layers by moving mouse over the layer structure. Conv1 to Conv7 has a similar view. On right side is the average activation in each conv filter and on the left side is the actual activations.
+<p align="center">
+<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.45.57%20PM.png" width="640"></p>
+<p align="center">Visualization of conv1-conv7 Layers </p>  
+
+The last layer will be the prediction layer. Users can inspect the pixel-level prediction by moving the mouse over the target image.
+<p align="center">
+<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.44.59%20PM.png" width="640"></p>
+<p align="center">Visualization of the last Layers </p>  
