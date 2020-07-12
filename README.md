@@ -63,4 +63,9 @@ In vertical axis, user can quickly switch between visualizations of different co
 The last layer will be the prediction layer. Users can inspect the pixel-level prediction by moving the mouse over the target image.
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.44.59%20PM.png" width="640"></p>
-<p align="center">Visualization of the last Layers </p>  
+<p align="center">Visualization of the last Layers </p> 
+
+## How to run?
+host a python server
+> python3 -m http.server
+go to http://localhost:8000/vis/struct-vis.html
