@@ -67,5 +67,5 @@ The last layer will be the prediction layer. Users can inspect the pixel-level p
 
 ## How to run?
 host a python server
-> python3 -m http.server
-go to http://localhost:8000/vis/struct-vis.html
+> python3 -m http.server  
+go to your browser and visit http://localhost:8000/vis/struct-vis.html
