@@ -24,12 +24,23 @@ This project introduces a visualization tool for visualizing the internal of Cov
   <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/target.jpg" width="120" />
   <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/predict.jpg" width="120" /> 
 </p>
+<p align="center">target & prediction on test set</p>
 
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.11%20PM.png" width="240">
 </p>
+<p align="center">structure of network</p>
 
-The model we use for this project can be referenced from the work done by R. Zhang et al. in 2016. The network structure contains 9 conv layers, where each conv layer refers to 2 or 3 consecutive conv2d and ReLU layers followed by BatchNorm. The network dimensions can be shown as the graph on the left side. The last layer of the networks gives the prediction over all the possible color classes with a 56 by 56 array. The Final output can be computed by upsampling this array to the origin size of image.
+The model I use for this project can be referenced from the work done by R. Zhang et al. in 2016. The network structure contains 9 conv layers, where each conv layer refers to 2 or 3 consecutive conv2d and ReLU layers followed by BatchNorm. The network dimensions can be shown as the graph on the left side. The last layer of the networks gives the prediction over all the possible color classes with a 56 by 56 array. The Final output can be computed by upsampling this array to the origin size of image.  
+The model is trained using a special loss function called color-rebalancing. It is defined as a weighted cross-entropy function where the weight of each class (a,b pairs) can be interpreted as the inverse of the probability of occurrence of each color. The more frequently a color occurs in the images, the less weight it will get. Thus, this model gets more rewards on choosing rare colors when there are multiple choices of color.
+
+Q stands for the number of color classes in the datasets, and λ is a tuning parameter that ranges between [0,1]. The more it is close to 1 the less of original probability p ̃ is taken into consideration. 
 
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.48%20PM.png">
 <p align="center">distribution of colors over all the possible ab-bins </p>
+
+<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.43.24%20PM.png">
+<p align="center">accuracies over epochs and categories </p>
+
+<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.44.04%20PM.png">
+<p align="center">accuracies over epochs and categories </p>
