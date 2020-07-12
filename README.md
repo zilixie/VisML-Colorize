@@ -9,8 +9,21 @@ This project introduces a visualization tool for visualizing the internal of Cov
   <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act2/predict.jpg" width="100" /> 
   <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/target.jpg" width="100" />
   <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act4/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act4/predict.jpg" width="100" /> 
 </p>
-
+<p float="left">
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act5/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act5/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act6/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act6/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act7/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act7/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act8/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act8/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act9/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act9/predict.jpg" width="100" /> 
+</p>
 <p align="center">
 <img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.11%20PM.png" width="240">
 </p>
