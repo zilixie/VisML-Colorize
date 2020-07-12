@@ -3,10 +3,12 @@ This project introduces a visualization tool for visualizing the internal of Cov
 <p float="left">
   <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/target.jpg" width="100" />
   <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/predict.jpg" width="100" /> 
-</p>
-<p float="left">
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/target.jpg" width="100" />
-  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act0/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act1/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act1/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act2/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act2/predict.jpg" width="100" /> 
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/target.jpg" width="100" />
+  <img src="https://github.com/zilixie/VisML-Colorize/blob/master/resources/act3/predict.jpg" width="100" /> 
 </p>
 
 <p align="center">
