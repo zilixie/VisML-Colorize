@@ -38,11 +38,14 @@ The model is trained using a special loss function called color-rebalancing. It 
 
 Q stands for the number of color classes in the datasets, and λ is a tuning parameter that ranges between [0,1]. The more it is close to 1 the less of original probability p ̃ is taken into consideration. 
 
-<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.48%20PM.png" width="640">
+<p align="center">
+<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.42.48%20PM.png" width="960"></p>
 <p align="center">distribution of colors over all the possible ab-bins </p>
 
-<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.43.24%20PM.png" width="640">
+<p align="center">
+<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.43.24%20PM.png" width="640"></p>
 <p align="center">accuracies over epochs and categories </p>
 
-<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.44.04%20PM.png" width="640">
+<p align="center">
+<img src="https://github.com/zilixie/VisML-Colorize/blob/master/images/Screen%20Shot%202020-07-12%20at%2010.44.04%20PM.png" width="640"></p>
 <p align="center">Visualization of Model Activation </p>
